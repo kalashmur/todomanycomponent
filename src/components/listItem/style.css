@@ -1,0 +1,21 @@
+
+.block__list-input-change{
+  width: 80%;
+  margin:auto;
+  font-size:12pt;
+}
+.block__list-elem-text{
+  white-space:nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.block__list-elem-done {
+  opacity: 0.6;
+}
+.block__list-elem-done > i{
+  text-decoration: line-through;
+}
+.block__list-elem:hover > .block__list-delete,
+.block__list-elem-done:hover > .block__list-delete {
+  opacity: 1;
+}

@@ -1,0 +1,16 @@
+.block__list-delete {
+  flex: 0 0 30px;
+  padding: 6px;
+  margin-left: auto;
+  background-color: red;
+  opacity: 0;
+}
+.block__list-btn{
+    flex: 0 0 30px;
+    padding: 6px;
+}
+.block__list-btn-change{
+      flex: 0 0 30px;
+      padding: 6px;
+      margin-right: auto;
+}
